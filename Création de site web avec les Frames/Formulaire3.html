@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <style>
+        body{background-color:grey}
+        h1{
+            color:red;
+            background-color:black;
+            text-align:center;
+            padding:5px
+        }
+        p1{
+            color:white;
+            font-size:20px;
+            font-weight:600px
+        }
+        ul{
+            color:white;
+            font-size:20px;
+            font-weight:600px   
+        }
+        p2{
+            color:yellow;
+            font-size:20px;
+            font-weight:600px  
+        }
+    </style>
+</head>
+<body>
+    <h1><i>REGISTER FORM</i></h1>
+    <p1>
+        <label>
+            Salutation:
+            <select name="salutation">
+                <option>--None--</option>
+                <option>Mr.</option>
+                <option>Ms.</option>
+                <option>Mrs.</option>
+                <option>Prof.</option>
+                <option>Dr.</option>
+            </select><br></br>
+        </label>
+    </p1>
+    <p1>
+        First Name:<input type="text"/><br></br>
+        Middlename:<input type="text"/><br></br>
+        Last Name:<input type="text"/><br></br>
+        Date of birth:<input type="date"/><br></br>
+        Gender:<input type="checkbox"/>Male <input type="checkbox"/>Female <input type="checkbox"/>Other<br></br>
+    </p1>
+    <p2>
+        Contact:
+        <ul>
+            <li>Phone No. :<input type="tel" value="+229" size="1"/><input type="tel" size="10"/><br></br></li>
+            <li>E-mail:<input type="text"/><br></br></li>
+            <li>Address:<br></br><textarea name="address" cols="30" rows="3"></textarea></li>
+        </ul>
+    </p2>
+    <p2>
+        Security account:
+        <ul>
+            <li>Password:<input type="Password" id="pass" name="pass"/><br></br></li>
+            <li>Re-type Password:<input type="Password" id="repass" name="repass"/><br></br></li>
+        </ul>
+    </p2>
+    <p>
+    <button type="submit">Submit</button>  <button type="reset">Reset</button>
+    </p>
+</body>
+</html>

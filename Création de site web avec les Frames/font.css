@@ -1,0 +1,22 @@
+body{
+    background-color:beige
+}
+.img1{
+    float: left;
+}
+.img2{
+    float: right;
+}
+h1{
+    font-family:italic;
+    font-size: 60px;
+    text-decoration: underline;
+    text-align: center;
+}
+p{
+    font-size: 20px
+}
+h2{
+    font-size: 30px;
+    color:blue
+}
